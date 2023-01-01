@@ -1,0 +1,12 @@
+# script to help with new servers going ot be commited into git for easy use and practice 
+# also remember to chmod +x this file or it doesnt work and mainly for centos machines
+sudo yum update -y && yum install -y yum-utils
+# next lets install docker for easy use of container applications
+sudo yum-config- manager 
+-- add-repo
+https://download.docker.com/linux/centos/docker-ce.repo
+# now install docker using the repo
+sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+# remember to start the docker daemon but first add your local user to docker group to be updated later may use read statement and echo command to help FYi.
+# script will be later tested in jenkins to see if valid but right now is just a practice for git push.
+
