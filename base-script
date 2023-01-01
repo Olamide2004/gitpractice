@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # script to help with new servers going ot be commited into git for easy use and practice 
 # also remember to chmod +x this file or it doesnt work and mainly for centos machines
 sudo yum update -y && yum install -y yum-utils
